@@ -1,0 +1,192 @@
+body, html {
+	width:100%;
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+}
+
+*{
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+#container{
+	padding-top:2%;
+	width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#contentBox{
+	position:float;
+	margin: 0 auto;
+	width:100%;
+	height:100%;
+	border-radius: 10px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	
+}
+
+
+#headingTitle{
+	float:left;
+	width: 80%;
+	margin-left: 5%;
+    text-align: center; 
+}
+
+.buttonsGenre{
+	float:left;
+	width:90%;
+    text-align: right; 
+}
+
+.buttonsBook{
+	width:100%;
+}
+
+#table{
+	float:left;
+
+}
+
+h1 {	
+	color: #219ebc;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 50px;
+}
+
+
+table {
+	align-self:center;
+    font-size: 20px;
+    text-align: center;
+    border-spacing: 1px;
+    border-collapse: separate;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-right:10%
+}
+
+th, td {
+	padding: 20px;
+}
+
+tbody tr:nth-child(odd) {
+  	background-color: #C39BD3;
+}
+
+tbody tr:nth-child(even) {
+ 	 background-color:#F2F4F4;
+}
+
+th {
+	background-color: #000;
+  	background-image: linear-gradient(125deg,#a72879,#064497);
+  	color: #fff;
+	font-size: 25px;
+	
+}
+
+.closeSession {
+	float:left;
+    background-color: #000;
+  	background-image: linear-gradient(125deg,#a72879,#064497);
+  	color: #fff;
+    padding: 10px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.closeSessionGenre{
+	float:left;
+    background-color: #000;
+  	background-image: linear-gradient(125deg,#a72879,#064497);
+  	color: #fff;
+    padding: 10px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 20%;
+}
+
+.addGenre {
+	float:right;
+	margin-right:10%;
+    background-color: #000;
+  	background-image: linear-gradient(125deg,#a72879,#064497);
+  	color: #fff;
+    padding: 10px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    font-size: 30px;
+    text-align: right;
+ 
+}
+
+.addBook {
+	float:left;
+	margin-top: 1%;
+	margin-left: 15%;
+    background-color: #000;
+  	background-image: linear-gradient(125deg,#a72879,#064497);
+  	color: #fff;
+    padding: 10px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    font-size: 30px;
+    text-align: right;
+ 
+}
+
+.backGenre {
+	float:left;
+    background-color: #000;
+  	background-image: linear-gradient(125deg,#a72879,#064497);
+  	color: #fff;
+    padding: 10px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+
+#activeUser h3{
+	color: #219ebc;
+	font-style: italic;
+}
+
+.listGenres tr th {
+	width: 400px;
+}
+.listGenres tr th#actions {
+	width: 1200px;
+}
+
+td a, td a:visited {
+	text-decoration: none;
+	color: #000;
+}
